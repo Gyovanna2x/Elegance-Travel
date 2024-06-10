@@ -1,0 +1,591 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.principal {
+    height: auto;
+}
+
+.cabecalho {
+    background-color: #A952A3;
+    height: 65px;
+}
+
+.logo {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.btn {
+    background-color: #d186c7;
+    float: right;
+    margin-right: -325px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: unset;
+    border: #d186c7;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+.linkk {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.login {
+    font-weight: unset;
+    font-size: 25px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.linkk2 {
+    font-weight: unset;
+    font-size: 25px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.borda {
+    padding: 50px;
+    border: #7b3b77, solid, 2.5px;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    height: 450px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 2px;
+}
+
+.borda span {
+    color: #A952A3;
+}
+
+.borda h1 {
+    font-size: 60px;
+}
+
+.borda img {
+    margin-left: 100px;
+}
+
+.borda h3 {
+    margin-top: 10px;
+    font-weight: inherit;
+}
+
+.botao a {
+    color: #7b3b77;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 50px;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: #7b3b77, solid, 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-left: 60px;
+}
+
+
+.hospedagem {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 925px;
+    box-shadow: #7b3b772a 0px 4px 6px -1px, #7b3b772a 0px 2px 4px -1px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.pesquisa {
+    margin-left: 20px;
+    margin-bottom: 18px;
+    height: 30px;
+    width: 30px;
+    background-color: #A952A3;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hospedagem h5 {
+    color: #e6a5dd;
+    font-weight: unset;
+}
+
+.ch {
+    width: 50px;
+}
+
+.sa {
+    display: flex;
+    position: relative;
+    left: 190px;
+    bottom: 17px;
+}
+
+.opcoes {
+    margin-left: 20px;
+}
+
+label {
+    font-weight: 500;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #7b3b77;
+    border-radius: 4px;
+}
+
+.calendarios {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#entrada {
+    margin-right: 10px;
+}
+
+.ui-datepicker-calendar {
+    color: #7b3b77;
+    /* Cor dos números dos dias */
+}
+
+.ui-datepicker-today a {
+    color: #A952A3 !important;
+    /* Cor do link do dia atual */
+}
+
+.ui-datepicker-month {
+    color: #7b3b77
+        /* Cor do nome do mês */
+}
+
+
+.ui-datepicker-year {
+    color: #e6a5dd;
+    /* Cor do nome do mês e do ano */
+}
+
+.opcoe {
+    margin-left: 20px;
+}
+
+#quantidade {
+    width: 100px;
+}
+
+#entrada,
+#saida {
+    width: 100px;
+    height: 18px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #7b3b77;
+    border-radius: 5px;
+}
+
+.avaliacoes h1 {
+    color: #A952A3;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+}
+
+.um {
+    text-align: center;
+}
+
+.um img {
+    border-radius: 5px;
+}
+
+.dois {
+    text-align: center;
+}
+
+.dois img {
+    border-radius: 5px;
+}
+
+.tres {
+    text-align: center;
+}
+
+.tres img {
+    border-radius: 5px;
+}
+
+.boto {
+    background-color: #A952A3;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: unset;
+    border: #A952A3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+.um h5 {
+    font-weight: lighter;
+    color: #B4B4B8;
+}
+
+
+.boto2 {
+    background-color: #A952A3;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: unset;
+    border: #A952A3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+.dois h5 {
+    font-weight: lighter;
+    color: #B4B4B8;
+}
+
+
+.boto3 {
+    background-color: #A952A3;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: unset;
+    border: #A952A3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+.tres h5 {
+    font-weight: lighter;
+}
+
+.rodape {
+    background-color: #A952A3;
+    margin-top: 10rem;
+    height: 8rem;
+}
+
+.rodape hr {
+    position: relative;
+    top: 70%;
+}
+
+.rodape p {
+    color: white;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 85%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+
+}
+
+.rodape a:link {
+    color: white;
+}
+
+.rodape a {
+    color: #e6a5dd;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+
+/* Começo do css de Cadastro*/
+
+.Dcadastro {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: #7b3b77 0px 1px 4px, #7b3b77 0px 0px 0px 3px;
+}
+
+.Dcadastro h1 {
+    color: #A952A3;
+    margin-left: 130px;
+    padding-top: 50px;
+}
+
+.Dcadastro form {
+    margin-left: 80px;
+    padding-top: 40px;
+    width: 200px;
+}
+
+.Dcadastro input {
+    margin: 20px;
+}
+
+.inputForm {
+    border-radius: 50px;
+    border: solid #7b3b77 1.5px;
+    width: 250px;
+    height: 25px;
+}
+
+.Dcadastro .submit {
+    width: 250px;
+    border-radius: 50px;
+    height: 25px;
+    background-color: #A952A3;
+    border: #A952A3;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.imgCa {
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.Dcadastro label {
+    margin-left: 20px;
+}
+
+
+/* começo do css da pagina Hoteis */
+
+
+
+.search-container {
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+}
+
+input#search-bar {
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #7b3b77;
+    outline: none;
+    border-radius: 50px;
+    position: relative;
+    top: -55px;
+
+    &:focus {
+        border: 1px solid #A952A3;
+        transition: 0.35s ease;
+        color: #7b3b77
+    }
+
+    &::-moz-placeholder {
+        transition: opacity 0.45s ease;
+        opacity: 0;
+    }
+
+    &:-ms-placeholder {
+        transition: opacity 0.45s ease;
+        opacity: 0;
+    }
+}
+
+
+.search-icon {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: -85px;
+    margin-right: 80px;
+
+}
+
+.info {
+    margin-left: 250px;
+}
+
+.info h3 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.info h4 {
+    color: #B4B4B8;
+    font-weight: lighter;
+}
+
+.hoteis {
+    display: inline-block;
+    box-shadow: #0000003d 0px 3px 8px;
+    margin-top: 40px;
+    height: 350px;
+    width: 410px;
+    margin-left: 53px;
+    background-color: #e0e0e06a;
+}
+
+.hoteis img {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 150px;
+    width: 370px;
+}
+.infoH h4{
+  color: #7b3b77;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.infoH h5{
+    text-align: center;
+    margin-top: 5px;
+}
+.local{
+    margin-bottom: 5px;
+}
+.valor{
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 150px;
+}
+.valor span{
+    font-weight: normal;
+    color: #7b3b77;
+}
+.hoteis a:link{
+  text-decoration: none;
+}
+
+
+/* Começo do css de Login*/
+
+.Dlogin {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: #7b3b77 0px 1px 4px, #7b3b77 0px 0px 0px 3px;
+}
+
+.Dlogin h1 {
+    color: #A952A3;
+    margin-left: 75px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.Dlogin form {
+    margin-left: 80px;
+    padding-top: 40px;
+    width: 200px;
+}
+
+.Dlogin input {
+    margin: 20px;
+}
+
+.inputForm {
+    border-radius: 50px;
+    border: solid #7b3b77 1.5px;
+    width: 250px;
+    height: 25px;
+}
+
+.Dlogin .submit {
+    width: 250px;
+    border-radius: 50px;
+    height: 25px;
+    background-color: #A952A3;
+    border: #A952A3;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.imgLo {
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.Dlogin label {
+    margin-left: 20px;
+}
+.Dlogin h5{
+    color: #B4B4B8;
+font-weight: lighter;
+margin-left: 106px;
+margin-top: 20px;
+}
+.Dlogin h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 106px;
+}
+.Dlogin span{
+    color: #A952A3;
+}
+.Dlogin a:link{
+    text-decoration: none;
+}

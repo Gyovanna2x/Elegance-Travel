@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="shortcut icon" href="imagens/airplane-mode.png" type="image/x-icon">
+    <title>Elegance Travel</title>
+
+</head>
+
+<body>
+    <div class="principal">
+        <div class="cabecalho">
+            <img src="imagens/elegance-removebg-preview.png" alt="" class="logo">
+
+            <a href="login.html" class="login">
+                Login
+            </a>
+
+            <a href="index.html" class="linkk2">
+                Home
+            </a>
+
+            <button class="btn">
+                <a href="cadastro.html" class="linkk">
+                    Cadastre-se
+                </a>
+            </button>
+        </div>
+
+
+        <div class="borda">
+            <div>
+                <h1>Comece sua emocionante <br> <span>jornada</span> conosco</h1>
+
+
+                <h3>
+                    Uma equipe de experientes profissionais de <br>
+                    turismo irá fornecer-lhe os melhores hoteis <br>
+                    que melhor se
+                    encaixa com o seu perfil.
+                </h3>
+
+                <button class="botao">
+                    <a href="Hoteis.html" class="linkk">
+                        Descubra agora
+                    </a>
+                </button>
+
+            </div>
+
+            <img src="imagens/img-index (1).png" alt="">
+        </div>
+    </div>
+
+
+    <div class="hospedagem">
+
+        <div class="opcoes">
+            <label for="localizacao">Localização:</label>
+            <select id="localizacao" name="localizacao">
+                <option value="SP">São Paulo</option>
+                <option value="RS">Rio Grande Do Sul</option>
+                <option value="RJ">Rio De Janeiro</option>
+                <option value="CE">Fortaleza</option>
+            </select>
+            <h5>Onde deseja se hospedar</h5>
+
+        </div>
+
+        <div class="calendarios">
+            <script>
+                $(function () {
+                    $("#entrada").datepicker({
+                        dateFormat: 'dd/mm/yy',
+                        minDate: 0,
+                        onSelect: function (selectedDate) {
+                            var endDate = $("#entrada").datepicker("getDate");
+                            $("#saida").datepicker("option", "minDate", endDate);
+                        }
+                    });
+
+                    $("#saida").datepicker({
+                        dateFormat: 'dd/mm/yy',
+                        minDate: 1
+                    });
+                });
+            </script>
+
+            <label for="entrada">Chek-in:</label>
+            <input type="text" id="entrada" name="entrada">
+
+            <label for="saida">Chek-out:</label>
+            <input type="text" id="saida" name="saida">
+
+            <h5 class="ch">Chegada</h5>
+            <h5 class="sa">Saida</h5>
+        </div>
+
+        <div class="opcoe">
+
+            <label for="quantidade">Hóspedes:</label>
+            <select id="quantidade" name="quantidade">
+                <option value="um">1 pessoa</option>
+                <option value="dois">2 pessoas</option>
+                <option value="tres">3 pessoas</option>
+                <option value="quatro">4 pessoas</option>
+
+            </select>
+
+            <h5>Numero de hóspedes</h5>
+        </div>
+
+
+        <img src="imagens/dnv.png" alt="" class="pesquisa">
+
+    </div>
+
+    <div class="avaliacoes">
+        <h1>Menor preço</h1>
+
+        <div class="box">
+
+            <div class="um">
+                <img src="imagens/hotel01.png" alt="">
+                <h3>Hotel Colline de France</h3>
+                <h5>Gramado - RS</h5>
+
+
+                <button class="boto">
+                    <a href="#" class="linkk">
+                        Ver mais
+                    </a>
+                </button>
+            </div>
+
+            <div class="dois">
+                <img src="imagens/hotel02.png" alt="">
+                <h3>Hotel Hilton</h3>
+                <h5>Barra da Tijuca - RJ</h5>
+
+                <button class="boto2">
+                    <a href="#" class="linkk">
+                        Ver mais
+                    </a>
+                </button>
+            </div>
+
+            <div class="tres">
+                <img src="imagens/hotel03.png" alt="">
+                <h3>Villa Bella Hotele Spa</h3>
+                <h5>Gramado - RS</h5>
+
+                <button class="boto3">
+                    <a href="#" class="linkk">
+                        Ver mais
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="rodape">
+        <hr>
+        <p>© 2024 Todos os direitos reservados Elegance Travel. | Desenvolvido por Jovens talentos Libbs | <a href="#">
+                Saiba Mais</a> </p>
+
+    </div>
+    <script src="/public/index.js"></script>
+</body>
+
+</html>
